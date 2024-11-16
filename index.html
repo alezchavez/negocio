@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollo Feliz - Auténtico Sabor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url(fondo\ 2.jpg);
+            background-size: cover;
+            color: #000; 
+        }
+        header, footer {
+            background-color: rgba(255, 179, 0, 0.8); 
+            color: #000; 
+            padding: 1em;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1em;
+        }
+        header img {
+            max-width: 50px; 
+            height: auto;
+        }
+        nav {
+            background-color: rgba(244, 162, 97, 0.8);
+            padding: 0.5em;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #000; 
+            text-decoration: none;
+        }
+        .container {
+            padding: 2em;
+            margin: 2em;
+            color: #000; 
+        }
+        .section-title {
+            color: #E76F51;
+            font-size: 1.5em;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            width: 30%;
+            margin: 1%;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.1); 
+            color: #000000; 
+        }
+        .contact-info, .map, .history {
+            margin: 2em 0;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+        .footer-links a {
+            color: #000; 
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="Ya estamos LISTOS para Mañana atenderte en Nuestro….jpg" alt="Logo de Pollo Feliz"> 
+    <div>
+        <h1>Pollo Feliz</h1>
+        <p>Auténtico sabor y calidad en cada bocado</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">Nosotros</a>
+    <a href="#products">Productos</a>
+    <a href="#special-offers">Ofertas Especiales</a>
+    <a href="#contact">Contacto</a>
+</nav>
+
+<div class="container">
+
+    <section id="about">
+        <h2 class="section-title">Acerca de Nosotros</h2>
+        <p>Pollo Feliz es un restaurante que se enorgullece de ofrecer los mejores platillos de pollo asado en la región. Nuestro compromiso es servir alimentos de alta calidad, saludables y deliciosos.</p>
+    </section>
+
+    <section id="products">
+        <h2 class="section-title">Menú Completo</h2>
+        <div class="product-list">
+            <div class="product">
+                <h3>Pollo Asado Entero</h3>
+                <p>Pollo entero asado a la perfección.</p>
+                <p>Precio: $150</p>
+            </div>
+            <div class="product">
+                <h3>Combo Familiar</h3>
+                <p>1 pollo asado, guarniciones y refrescos para 4 personas.</p>
+                <p>Precio: $220</p>
+            </div>
+            <div class="product">
+                <h3>Medio Pollo Asado</h3>
+                <p>Perfecto para compartir entre dos personas.</p>
+                <p>Precio: $80</p>
+            </div>
+            <div class="product">
+                <h3>Paquete Fiesta</h3>
+                <p>3 pollos asados, guarniciones y refrescos (ideal para eventos).</p>
+                <p>Precio: $600</p>
+            </div>
+            <div class="product">
+                <h3>Tacos de Pollo</h3>
+                <p>Tacos rellenos de pollo asado desmenuzado y salsa especial.</p>
+                <p>Precio: $15 c/u</p>
+            </div>
+            <div class="product">
+                <h3>Ensalada César con Pollo</h3>
+                <p>Ensalada fresca con pollo asado en tiras y aderezo César.</p>
+                <p>Precio: $70</p>
+            </div>
+            <div class="product">
+                <h3>Papas Fritas</h3>
+                <p>Porción de papas fritas crujientes.</p>
+                <p>Precio: $30</p>
+            </div>
+            <div class="product">
+                <h3>Arroz con Verduras</h3>
+                <p>Arroz blanco con una mezcla de verduras frescas.</p>
+                <p>Precio: $25</p>
+            </div>
+            <div class="product">
+                <h3>Refrescos</h3>
+                <p>Refrescos en botella de 600 ml.</p>
+                <p>Precio: $20</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="special-offers">
+        <h2 class="section-title">Ofertas Especiales</h2>
+        <p>¡Visítanos los miércoles y disfruta de un 10% de descuento en tu orden completa!</p>
+    </section>
+
+    <section id="testimonials">
+        <h2 class="section-title">Testimonios</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"El mejor pollo asado que he probado. ¡Siempre delicioso!" - Maria S.</p>
+            </div>
+            <div class="testimonial">
+                <p>"Un sabor único y atención excelente." - Juan P.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-info">
+            <p>Teléfono: +52 123 456 7890</p>
+            <p>Email: contacto@pollofeliz.com</p>
+            <p>Redes Sociales: 
+                <a href="https://www.facebook.com/pollofelizguzman" target="_blank">Facebook</a> | 
+                <a href="https://www.instagram.com/pollofelizguzman" target="_blank">Instagram</a>
+            </p>
+        </div>
+        
+        <!-- Mapas de las sucursales -->
+        <div class="map">
+            <h3>Sucursal 1 - Dirección Principal</h3>
+            <p>Teléfono: +52 341 000 1234</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.057495301817!2d-103.47173618466097!3d19.703586036249314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f58710cfb95b9%3A0xb5bde74dcf720d58!2sCiudad%20Guzm%C3%A1n%2C%20Jal.!5e0!3m2!1ses!2smx!4v1696026561235!5m2!1ses!2smx" allowfullscreen></iframe>
+        </div>
+        
+        <div class="map">
+            <h3>Sucursal 2 - Otra Dirección</h3>
+            <p>Teléfono: +52 341 000 5678</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.8294628548!2d-103.47150000000002!3d19.700555000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f58692b123456%3A0x12345abcd1234!2sOtra%20Direcci%C3%B3n%20de%20Sucursal%202!5e0!3m2!1ses!2smx!4v1696026561236!5m2!1ses!2smx" allowfullscreen></iframe>
+        </div>
+</div>
+
+<footer>
+    <p>&copy; 2023 Pollo Feliz. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
